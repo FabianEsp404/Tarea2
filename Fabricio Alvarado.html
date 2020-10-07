@@ -9,35 +9,47 @@
             <!-- body{background-image: url("fondo1.jpg");} -->
         <!-- </style> -->
         <link rel="stylesheet" href="estilo.css">
+        <link rel="stylesheet" href="menu.css">
     </head>
         
     <body>
         <div class="fondo">
-            <header>
-                <h1>Tico Electoral</h1>
-                <h1>Elecciones de Costa Rica 2018</h1>
-                <br> 
+            <header id="cabecera">
+                <img src= "img/kisspng-flag-of-costa-rica-flag-of-costa-rica-clip-art-gold-color-border-5ad8de6e121f38.0115624315241621580742.png" 
+                    height="100px" width="150px"/>
+                <h1 class="blanco">Tico Electoral</h1>
+                <h1 class="blanco">Elecciones de Costa Rica 2018</h1>
+    
+                <nav id="navegacion">
+                    <div class="container">
+                        <a href="index.html" target="_self">Home</a>
+                        <a href="https://www.tse.go.cr/dondevotarM/" target="_blank">Donde Votar</a>
+                        <a href="Encuestas.html"target="_blank">Encuestas</a>
+                    </div>
+                </nav>    
+                <br>
+                
+            </header>
+
+            <article>
                 <h1>Fabricio Alvarado Muñoz</h1>
+                <img class="centrado" src="img/Fabricio Alvarado.jpg" width="200" height="200">
+                
                 <h3>Fabricio Alvarado pertenece al Partido Restauración Nacional (PRN), miembro del ala más conservadora y cristiana en la elección actual.
 
                     Alvarado comenzó a posicionarse después del 9 de enero cuando la Corte Interamericana de Derechos Humanos respondió que Costa Rica debe garantizar el matrimonio igualitario.
                     
                     El comunicador es fiel opositor al matrimonio homosexual, el aborto y la educación sexual y de afectividad en los centro educativos</h3> 
 
-            </header>
-
-            <article>
-                <img src="img/Fabricio Alvarado.jpg" width="200" height="200">
-
                 <br>
-                <video controls width="500" height="500">
+                <video class="centrado" controls width="500" height="500">
                     <source src="Video/y2mate.com - Vengo a hablarle con la verdad - Fabricio Alvarado_480p.mp4" type="video/mp4" />
                     Este navegador no soporta el video.
                 </video>
 
                 <p>Audio</p>
 
-                <audio controls>
+                <audio controls class="centrado">
                     <source src="Audio/fabricio-alvarado.mp3" type="audio/mp4">
                         Este navegador no soporta el audio. 
 
